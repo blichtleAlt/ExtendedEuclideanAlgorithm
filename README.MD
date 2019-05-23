@@ -1,36 +1,36 @@
-# Project Title
+# Extended Euclidean Algorithm
 
-One Paragraph of project description goes here
+This program computes the greatest common divisor between two random 4096 bit integers, using the Extended Euclidean Algorithm. The result is compared to the GMP library implentation for correctness. 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
+You will first want to download the GMP library found at: https://gmplib.org/#DOWNLOAD
+Once you have downloaded the file, extract the contents into a temporary directory.
+Navigate to the temporary directory and run the sequence of commands to install successfully.
 
 ```
-Give examples
+./configure --enable-cxx
 ```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+If you get an error message, install the neccessary packages using 
 ```
-Give the example
+apt-get install
 ```
-
-And repeat
-
+If you configure without any errors, run the following command 
 ```
-until finished
+make
+``` 
+Next, run the command 
 ```
+sudo make install
+```
+Lastly, to make sure everything was installed correctly, run the following command 
+``` 
+make check
+```
+After this, the GMP library should be installed correctly.
 
-End with an example of getting some data out of the system or using it for a little demo
+## Usage
+
 
 ## Running the tests
 
@@ -44,45 +44,6 @@ Explain what these tests test and why
 Give an example
 ```
 
-### And coding style tests
 
-Explain what these tests test and why
 
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
