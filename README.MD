@@ -7,6 +7,7 @@ This program computes the greatest common divisor between two random 4096 bit in
 You will first want to download the GMP library found at: https://gmplib.org/#DOWNLOAD.
 Once you have downloaded the tar.lz, extract the contents into a temporary directory.
 Navigate to the temporary directory and run the sequence of commands to install successfully.
+Credits to (https://linkevin.me/tutorial-installing-gmp-library-ubuntu/)
 
 ```
 ./configure --enable-cxx
