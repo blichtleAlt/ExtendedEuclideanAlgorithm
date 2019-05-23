@@ -3,32 +3,10 @@
 This program computes the greatest common divisor between two random 4096 bit integers, using the Extended Euclidean Algorithm. The result is compared to the GMP library implentation for correctness. 
 
 ## Getting Started
-
-You will first want to download the GMP library found at: https://gmplib.org/#DOWNLOAD.
-Once you have downloaded the tar.lz, extract the contents into a temporary directory.
-Navigate to the temporary directory and run the sequence of commands to install successfully.
-Credits to (https://linkevin.me/tutorial-installing-gmp-library-ubuntu/)
-
+To use this program, you will need to install the GMP libary on your machine, a g++ compiler, and the make program. To install these packages, run the following command
 ```
-./configure --enable-cxx
+sudo apt-get install libgmp-dev make g++
 ```
-If you get an error message, install the neccessary packages using 
-```
-sudo apt-get install <package-name>
-```
-If you configure without any errors, run the following command 
-```
-make
-``` 
-Next, run the command 
-```
-sudo make install
-```
-Lastly, to make sure everything was installed correctly, run the following command 
-``` 
-make check
-```
-After this, the GMP library should be installed correctly.
 
 ## Usage
 Once you have installed the GMP library, run the following command to build the executable
