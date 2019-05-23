@@ -30,15 +30,15 @@ make check
 After this, the GMP library should be installed correctly.
 
 ## Usage
+Once you have installed the GMP library, run the following command to build the executable
+```
+make euclid
+```
+To run the program, simple run the following command
+```
+./euclid
+```
 
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
 
 ```
 Give an example
