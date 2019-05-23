@@ -13,7 +13,7 @@ Navigate to the temporary directory and run the sequence of commands to install 
 ```
 If you get an error message, install the neccessary packages using 
 ```
-apt-get install
+sudo apt-get install <package-name>
 ```
 If you configure without any errors, run the following command 
 ```
