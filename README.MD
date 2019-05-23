@@ -4,8 +4,8 @@ This program computes the greatest common divisor between two random 4096 bit in
 
 ## Getting Started
 
-You will first want to download the GMP library found at: https://gmplib.org/#DOWNLOAD
-Once you have downloaded the file, extract the contents into a temporary directory.
+You will first want to download the GMP library found at: https://gmplib.org/#DOWNLOAD.
+Once you have downloaded the tar.lz, extract the contents into a temporary directory.
 Navigate to the temporary directory and run the sequence of commands to install successfully.
 
 ```
